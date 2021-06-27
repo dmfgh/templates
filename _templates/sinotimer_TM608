@@ -13,3 +13,5 @@ type: DIN Relay
 standard: global
 ---
 No success with Tuya-convert. Opens relatively easy. Has a TYWE3S module inside. The TX/RX is unconnected so can easily be flashed via serial connection.
+
+A point to note with this device is that the current measurement is done in the neutral path, so your controlled device must be connected to the Neutral out connector of the TM608 (and not a common neutral busbar) for you to get power readings.
